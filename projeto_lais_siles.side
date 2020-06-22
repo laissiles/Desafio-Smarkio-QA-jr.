@@ -1,0 +1,187 @@
+{
+  "id": "143c021e-55a1-4d3a-8c27-b6f37f8a5886",
+  "version": "2.0",
+  "name": "teste",
+  "url": "https://www.americanas.com.br/",
+  "tests": [{
+    "id": "807e3069-f639-4f67-8f7f-7197de7abf76",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "8173a493-8965-4f4c-964a-54caeb3a5e8b",
+    "name": "americanas",
+    "commands": [{
+      "id": "2b5b4d42-9249-4c7e-b977-6567521809b2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.americanas.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91000d00-b06a-4fbe-9478-9ef51d09b739",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "856x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43c2775f-8c5c-482f-9ba3-028245a6234c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30a95082-1577-47d2-908a-f73bf7886672",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c26a2da6-4bf1-46a3-8442-d2c824cc55c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24b885d6-1313-4d9e-ba08-3a0fa9e6f648",
+      "comment": "",
+      "command": "type",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Smartband Mi Band 4 Original - Lançamento"
+    }, {
+      "id": "54aa21a2-6400-4606-ad6b-57799560e524",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-btn",
+      "targets": [
+        ["id=h_search-btn", "id"],
+        ["css=#h_search-btn", "css:finder"],
+        ["xpath=//button[@id='h_search-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f215346-a723-4400-a0be-d5d292cd3589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid-item:nth-child(1) .TitleUI-bwhjk3-15",
+      "targets": [
+        ["css=.product-grid-item:nth-child(1) .TitleUI-bwhjk3-15", "css:finder"],
+        ["xpath=//div[@id='content-middle']/div[6]/div/div/div/div/div/div/div[2]/a/section/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aaaedfd-006b-4385-9adf-8639aad0ecdb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,539)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de9b3f42-02fd-4bcd-9815-edfa621d04ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kmswup",
+      "targets": [
+        ["css=.kmswup", "css:finder"],
+        ["xpath=//a[@id='btn-buy']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79506bc1-4f42-465d-abee-27c14b17e0d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kmswup",
+      "targets": [
+        ["css=.kmswup", "css:finder"],
+        ["xpath=//a[@id='btn-buy']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e17356-56f9-41be-b2c3-77d3a8f4cc7a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.kmswup",
+      "targets": [
+        ["css=.kmswup", "css:finder"],
+        ["xpath=//a[@id='btn-buy']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c111ed98-1d21-4b65-8c4b-256349f1fa11",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gdSuXy",
+      "targets": [
+        ["css=.gdSuXy", "css:finder"],
+        ["xpath=//div[2]/div/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d1cf777-7800-4609-a8ea-667145d03445",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gdSuXy",
+      "targets": [
+        ["css=.gdSuXy", "css:finder"],
+        ["xpath=//div[2]/div/a/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b28f7226-d283-46b6-abb9-690a52102d81",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.page-title",
+      "targets": [],
+      "value": "minha cesta"
+    }, {
+      "id": "f894677b-7fb9-449f-99a2-6cea90af5a90",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Smartband Mi Band 4 Original - Lançamento",
+      "targets": [
+        ["linkText=Smartband Mi Band 4 Original - Lançamento", "linkText"],
+        ["css=.link-default", "css:finder"],
+        ["xpath=//a[contains(text(),'Smartband Mi Band 4 Original - Lançamento')]", "xpath:link"],
+        ["xpath=//div[@id='app']/section/section/div/section/ul/li/div[2]/div/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.americanas.com.br/produto/103850370'])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Smartband Mi Band 4 Original - Lançamento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f2c47fd4-e728-48ff-9112-7ddc7dfc5614",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["807e3069-f639-4f67-8f7f-7197de7abf76"]
+  }],
+  "urls": ["https://www.ricardoeletro.com.br/", "https://www.submarino.com.br/", "https://www.americanas.com.br/"],
+  "plugins": []
+}
